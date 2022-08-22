@@ -9,30 +9,35 @@ ul {
 }
 
 .ul1 {
-margin: auto; display: flex ;
+margin: auto;
+
+
+display: flex ;
 	
 }
 
 
 .ul1 li a {
-	 width: max(4rem);
-	 height: max(4rem);
+	 width:4rem;
+	 height: 4rem;
      margin:auto;
      margin-top: -0.7rem;
 	 background-color: #FFFFFF;
 	 text-align: center;
-	 font-size: max(3rem);
+	 margin: auto;
 	border-radius: 50%;
 	 display: block;
      overflow: hidden;
+	 font-size: 2.8rem;
 	
-	 position: relative;
+	 position:relative;
 	 
 }
 
 .ul1 li a .fa {
 	position: relative;
-	color: #262626;
+	margin: auto;
+	color: #000000;
 	transition: .5s;
 	z-index: 3;
 }
