@@ -403,6 +403,7 @@ background-image: linear-gradient(20deg, rgb(34, 104, 190),rgb(209, 211, 214));;
 
 .experience{
     width: 100%;
+    background-image: linear-gradient(30deg, red , yellow , green);
 }
 
 #exp-head{
@@ -413,27 +414,36 @@ background-image: linear-gradient(20deg, rgb(34, 104, 190),rgb(209, 211, 214));;
     font-size: 4rem;
     height: .6rem;
     margin-top:4rem;
+
 }
 
-#exp{
-    margin: 1rem;
-    font-size: 4rem;
-    padding: 2rem;
-}
 
 
 .exp-cards{
 display: flex;
 justify-content: space-around;
-
+width: 100%;
+background-image: linear-gradient(30deg, rgb(50, 48, 48) , rgb(61, 61, 60) , rgb(4, 4, 4));
 }
 
 
+.exp-cardsz{
+    display: flex;
+    padding: .8rem;
+    width: 100%;
+    background-image: linear-gradient( 100deg,rgb(50, 48, 48) , rgb(247, 242, 242));
+    font-size: 2rem;
+    }
+
+    #exp{
+        font-size: 3rem;
+    }
+
 .ex-card{
     display: flex;
-    width:40rem;
-    font-size: .51rem;
-    height: 16.5rem;
+    width:35rem;
+    font-size: .31rem;
+    height: 17rem;
     
     margin: 2.3rem;
     padding: 1.2rem;
@@ -453,15 +463,64 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 color: #575757;
 }
 
-.ex-card
 
-.ex-card img {
-    width:90%;
+
+
+.l-card{
+    width: 30%;
+    
+}
+.l-card2{
+    width: 40%;
+}
+
+.l-card3{
+    width: 40%;
     margin: auto;
-   padding: auto;
 }
 
 
+
+
+
+
+.r-card{
+    width: 70%;
+    
+}
+.r-card2{
+width: 60%;
+}
+
+.r-card3{
+    width: 60%;
+    margin: auto;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+.l-card img {
+    width:100%;
+    margin-top: 20%;
+}
+
+.l-card2 img {
+    width:100%;
+    margin-top: 40%;
+    text-align: center;
+}
+
+.l-card3 img{
+    width: 120%;
+}
 
 .ex-card h3, h4{
 font-size: 1rem;
@@ -513,3 +572,5 @@ text-align:left;
   .element-down a {
     color: white;
   }
+
+  
