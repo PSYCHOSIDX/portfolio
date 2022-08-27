@@ -421,7 +421,7 @@ display: flex;
 justify-content: space-around;
 width: 100%;
 
-background-image: linear-gradient(70deg,#052648 , rgb(110, 22, 108) , rgb(17, 253, 253));
+background-image: linear-gradient(70deg,#126ffade , rgb(21, 165, 248) , rgb(13, 72, 220));
 }
 
 
@@ -544,9 +544,7 @@ text-align:left;
     color: rgb(255, 255, 255);
   
   border-radius: 10px;
-  
-  box-shadow:  8px 8px 16px #3030304f,
-               -5px -5px 16px #05050524;
+ 
   
   background-image: linear-gradient(20deg, rgb(12, 74, 221),rgb(8, 98, 233));
 
