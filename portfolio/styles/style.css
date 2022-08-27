@@ -12,7 +12,6 @@ html{
 body{
     
     background: linear-gradient(50deg, #000000, #577cb1);
-    height: : 100%;
     
 }
    
@@ -20,7 +19,7 @@ body{
 nav {
     color: rgb(255, 255, 255);
     font-size: .7rem;
-    padding: 8px;
+    padding:9px;
     display: flex;
     width: max(100%);
     background: linear-gradient(70deg,rgb(0, 0, 0),rgb(0, 0, 0));
@@ -376,19 +375,19 @@ border-radius: 10px;
 box-shadow:  8px 8px 16px #303030,
              -5px -5px 16px #2e2e2e;
 
-background-image: linear-gradient(20deg, rgb(34, 120, 190),rgb(209, 211, 214));; 
+background-image: linear-gradient(20deg, rgb(34, 104, 190),rgb(209, 211, 214));; 
 }
 
 
 .element:hover{
     cursor: pointer;
-    color: whitek;
+    color: rgb(0, 0, 0);
     
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     box-shadow:  8px 8px 16px #4f4f66,
              -5px -5px 16px #504f4f;
 
-             background-image: linear-gradient(20deg, rgb(4, 185, 176),rgb(214, 209, 209));
+             background-image: linear-gradient(20deg, rgb(234, 239, 239),rgb(185, 181, 181));
 }
 
 
@@ -398,3 +397,119 @@ background-image: linear-gradient(20deg, rgb(34, 120, 190),rgb(209, 211, 214));;
     align-items: center;
     justify-content: center;
 }
+
+
+/* Experiences */
+
+.experience{
+    width: 100%;
+}
+
+#exp-head{
+    background: -webkit-linear-gradient(40deg,#00FF47,#00D1FF,#EFDA1E,#FF1414,#C1C1C1);
+  
+    cursor: pointer;
+    text-shadow: none;
+    font-size: 4rem;
+    height: .6rem;
+    margin-top:4rem;
+}
+
+#exp{
+    margin: 1rem;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+
+.exp-cards{
+display: flex;
+justify-content: space-around;
+
+}
+
+
+.ex-card{
+    display: flex;
+    width:40rem;
+    font-size: .51rem;
+    height: 16.5rem;
+    
+    margin: 2.3rem;
+    padding: 1.2rem;
+
+    border-radius: 1.1rem;
+
+
+
+background: rgb(255, 255, 255);
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.416);
+backdrop-filter: blur( 12px );
+-webkit-backdrop-filter: blur( 12px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+
+color: #575757;
+}
+
+.ex-card
+
+.ex-card img {
+    width:90%;
+    margin: auto;
+   padding: auto;
+}
+
+
+
+.ex-card h3, h4{
+font-size: 1rem;
+text-align:left;
+}
+
+.element-down a{
+    text-decoration: none;
+}
+
+
+
+.element-down {
+    align-items: center;
+  
+      font :bold;
+      font-size: .9rem;
+    display: flex;
+    height: 2.5rem;
+  
+    justify-content: center;
+    width: 19rem;
+    
+  
+    color: rgb(255, 255, 255);
+  
+  border-radius: 10px;
+  
+  box-shadow:  8px 8px 16px #3030304f,
+               -5px -5px 16px #05050524;
+  
+  background-image: linear-gradient(20deg, rgb(12, 74, 221),rgb(209, 211, 214));
+
+  margin: auto;
+
+  margin-top: 1rem;
+  }
+  
+  
+  .element-down:hover{
+      cursor: pointer;
+      color: #2e2e2e;
+      
+               background-image: linear-gradient(20deg, rgb(0, 0, 0),rgb(34, 86, 177));
+
+
+  }
+
+  .element-down a {
+    color: white;
+  }
