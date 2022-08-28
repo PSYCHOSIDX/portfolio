@@ -8,6 +8,7 @@
 }
 html{
     overflow-x: hidden;
+    
 }
 body{
     
@@ -440,8 +441,8 @@ background-image: linear-gradient(40deg,#0e0f10 , rgb(200, 200, 200) , rgb(10, 2
 .ex-card{
     display: flex;
     width:35rem;
-    font-size: .31rem;
-    height: 17rem;
+    font-size: .21rem;
+    height: 18rem;
     
     margin: 2.3rem;
     padding: 1.2rem;
@@ -538,7 +539,7 @@ text-align:left;
     height: 2.5rem;
   
     justify-content: center;
-    width: 19rem;
+    width: 15rem;
     
   
     color: rgb(255, 255, 255);
