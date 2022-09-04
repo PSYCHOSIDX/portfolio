@@ -28,6 +28,7 @@ nav {
     width: max(100%);
     
     background: #1d3557;
+
 }
 
 
@@ -101,7 +102,7 @@ border: 0.1px solid rgba(255, 255, 255, 0.18);
     border: none;
 } */
 .line{
-    background: linear-gradient(36deg,#39e642,#457b9d,#1d3557);
+    background: linear-gradient(36deg,#39e642,#457b9d);
     height: .4rem;
 }
 
@@ -122,6 +123,7 @@ border: 0.1px solid rgba(255, 255, 255, 0.18);
 
 
 .mov{
+
     font-family: 'Krona One', sans-serif;
 width:200%;
 display: flex;
@@ -136,6 +138,8 @@ text-overflow: ellipsis;
 white-space: nowrap;
 overflow: hidden;
 z-index: -2;
+
+
 
 }
 
@@ -300,15 +304,6 @@ h2{
 
 }
 
-.self{
-    width: 67%;
-    display: flex;
-    margin: auto;
-    padding-top: 2.5rem;
-    border-radius: 36%;
-   
-    
-}
 
 .left_me{
     box-sizing: border-box;
@@ -340,66 +335,90 @@ h2{
 .round{
     width:26rem;
     height: 26rem;
-    background-image: linear-gradient(120deg,#39d5e69b,#457b9d58);
-    border-radius: 100%;
+  
+  
     margin: auto;
 
     margin-top: -6rem;
     z-index: 0;
-    border: .2rem solid rgb(250, 248, 247);  
-
-
-	animation: gradient 6s ease infinite;
-
-/* 
-    background-size: 300% 300%;
-	animation: gradient 8s ease infinite; */
+   
+    border: .2rem solid rgb(255, 255, 255);  
+    animation: gradient 6s ease infinite;
+    border-radius: 90%;
 
     box-shadow:  8px 8px 16px #00000046,
              -5px -5px 16px #0000002c;
-}
-/*end of code for me section */
-  
+            
 
-/* @keyframes gradient {
-	0% {
-		background-position:0% 50% ;}
+             background-color: #ffffff80;
 
-	100% {
-		background-position: 50% 100%;
-	}
-} */
+background-image: 
+ linear-gradient(#09e6bd 1.5px, transparent 1.5px),
+ linear-gradient(to right, #10e686 1.5px, #ffffff3d 1.5px);
 
-@keyframes gradient {
-	0% {
-		background-position:0% 50% ;}
-
-	100% {
-		background-position: 50% 100%;
-	}
+background-size: 30px 30px;
+   rotate: 40deg;        
 }
 
 
+    @-webkit-keyframes gradient {
+
+        
+        from {background-position:0 0;}
+        to {background-position: 500px 0;}
+      }
+       
+      @-moz-keyframes animate {
+        from {background-position:0 0;}
+        to {background-position: 500px 0;}
+      }
+       
+      @-ms-keyframes animate {
+        from {background-position:0 0;}
+        to {background-position: 500px 0;}
+      }
+       
+      @-o-keyframes animate {
+        from {background-position:0 0;}
+        to {background-position: 500px 0;}
+      }
+       
+      @keyframes animate {
+        from {background-position:0 0;}
+        to {background-position: 500px 0;}
+      }
+
+
+      .self{
+        width: 67%;
+        display: flex;
+        margin: auto;
+        padding-top: 2.5rem;
+        border-radius: 36%;
+       rotate:-40deg;
+        
+    }
+    
 .element {
   align-items: center;
 font-family: monospace;
     font :bold;
     font-size: 1.2rem;
   display: flex;
-  height: 4.5rem;
+  height: 4.2rem;
 
   justify-content: center;
   width: 16rem;
-  margin: 1rem;
+  margin: 1.4rem;
 
   color: rgb(255, 255, 255);
 
-border-radius: 25px;
+border-radius: 21px;
 
 box-shadow:  8px 8px 16px #eaeaea,
              -5px -5px 16px #a7a6a6;
 
-background-image: linear-gradient(120deg,#31ccc4,#1d3557);
+             background-image: linear-gradient(20deg,#31ccc4,#1d3557);
 }
 
 
@@ -425,13 +444,6 @@ background-image: linear-gradient(120deg,#31ccc4,#1d3557);
 
 /* Experiences */
 
-.experience{
-    width: 100%;
-    background-image: linear-gradient(30deg, red , yellow , green);
-   
-}
-
-
 
 
 
@@ -440,8 +452,12 @@ display: flex;
 
 justify-content: space-around;
 width: 100%;
-
+overflow: hidden;
 background-image: linear-gradient(40deg, 31ccc4, rgb(255, 255, 255) , rgb(249, 248, 249));
+
+background-color: #ffffff;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 4px ), repeating-linear-gradient( #41e7ce55, #41e7ce );
 }
 
 
@@ -449,7 +465,7 @@ background-image: linear-gradient(40deg, 31ccc4, rgb(255, 255, 255) , rgb(249, 2
     display: flex;
     padding: .8rem;
     width: 100%;
-    background-image: linear-gradient( 280deg,rgba(251, 247, 247, 0.701) , rgba(255, 245, 245, 0.575));
+    background-image: linear-gradient( 280deg,rgb(251, 247, 247) , rgb(255, 245, 245));
     font-size: 1rem;
     }
 
@@ -458,28 +474,28 @@ background-image: linear-gradient(40deg, 31ccc4, rgb(255, 255, 255) , rgb(249, 2
  
 .ex-card{
     display: flex;
-    width:35rem;
+    width:36rem;
+    overflow: hidden;
   
     height: 16rem;
     
-    margin: 2.3rem;
-    padding: 1.2rem;
+    margin: 2rem;
+    padding: 1.4rem;
 
-    border-radius: 1.1rem;
+    border-radius: 1.41rem;
 
-
-
-    background: rgba(218, 214, 214, 0);
+    background: rgb(255, 255, 255);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 10.5px );
-    -webkit-backdrop-filter: blur( 13.5px );
-    border-radius: 10px;
+ 
+  
     border: 1px solid rgba(255, 255, 255, 0.615);
-color: #646464;
+color: #656464;
 
 
 font-family: monospace;
 font-size: 1.1px;
+
+
 }
 
 
