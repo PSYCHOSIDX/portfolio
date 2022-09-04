@@ -2,8 +2,10 @@
     padding: 0%;
     box-sizing: border-box;
     margin: 0%;
-    font-family: monospace;
+    
     scroll-behavior: smooth;
+
+
     
 }
 html{
@@ -12,8 +14,8 @@ html{
 }
 body{
     
-    background: rgb(226, 226, 226);
-    
+    background: #fcffff;
+
     
 }
    
@@ -25,7 +27,7 @@ nav {
     display: flex;
     width: max(100%);
     
-    background: linear-gradient(270deg,rgb(185, 184, 184),rgb(248, 248, 248));
+    background: #1d3557;
 }
 
 
@@ -99,27 +101,29 @@ border: 0.1px solid rgba(255, 255, 255, 0.18);
     border: none;
 } */
 .line{
-    background: linear-gradient(40deg,rgb(231, 216, 13),rgb(227, 11, 11));
+    background: linear-gradient(36deg,#39e642,#457b9d,#1d3557);
     height: .4rem;
 }
 
 
 #name{
     font-size: 1.8rem;
-    color: #424040;
+    color: #ffffff;
     text-shadow: 1px solid #676564;
     font-family: sans-serif;
     margin: auto;
 }
 
 #intro{
-    color: #676564;
+    color: #a8dadc;
     font-weight: 200;
     font-size: .9rem;
 }
 
 
-.mov{width:200%;
+.mov{
+    font-family: 'Krona One', sans-serif;
+width:200%;
 display: flex;
 text-indent: 1rem;
 text-align: center;
@@ -143,15 +147,18 @@ z-index: -2;
     margin: 1%;
     width: 100%;
     text-align: center;
+   
     z-index: -2;
 }
 
 #text_color{
-    background: -webkit-linear-gradient(40deg,#9e9e9e,#3e3d3d);
+    background: -webkit-linear-gradient(40deg,#1d3557,#457b9d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
     text-shadow: none;
+    font-family: 'Krona One';
+
 }
 
 
@@ -164,7 +171,7 @@ z-index: -2;
     display: flex;
     justify-content: space-around;
 
-    font-size: 3rem;
+    font-size: .3rem;
     font-weight: bolder;
      overflow: hidden;
      position: relative;
@@ -183,7 +190,7 @@ z-index: -2;
     display: flex;
     justify-content: space-around;
    
-    font-size: 3rem;
+    font-size: .3rem;
     font-weight: bolder;
      overflow: hidden;
      position: relative;
@@ -219,7 +226,7 @@ z-index: -2;
     display: flex;
     justify-content: space-around;
 
-    font-size: 3rem;
+    font-size: .3rem;
     font-weight: bolder;
      overflow: hidden;
      position: relative;
@@ -238,7 +245,7 @@ z-index: -2;
     display: flex;
     justify-content: space-around;
    
-    font-size: 3rem;
+    font-size: .3rem;
     font-weight: bolder;
      overflow: hidden;
      position: relative;
@@ -252,8 +259,8 @@ z-index: -2;
 
 
 h2{
-    font-size: 4rem;
-    background: -webkit-linear-gradient(36deg,#ffd414,#de0101);
+    font-size:3rem;
+    background: -webkit-linear-gradient(40deg,#39e642,#457b9d,#1d3557);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -294,7 +301,7 @@ h2{
 }
 
 .self{
-    width: 69%;
+    width: 67%;
     display: flex;
     margin: auto;
     padding-top: 2.5rem;
@@ -313,31 +320,34 @@ h2{
 }
 
 .me_txt{
-    color: rgb(69, 65, 65);
+    background: -webkit-linear-gradient(120deg,#39e642,#457b9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    text-shadow: none;
     text-align: center;
-    font-size: 2.8rem;
+    font-family: 'Krona One';
 }
 
 
 
 .right_me{
     box-sizing: border-box;
-    width: 50%;
+    width: 45%;
     background-color: #00d0ff00;
 }
 
 .round{
-    width:28rem;
-    height: 28rem;
-    background-color: rgba(255, 255, 255, 0.711);
+    width:26rem;
+    height: 26rem;
+    background-image: linear-gradient(120deg,#39d5e69b,#457b9d58);
     border-radius: 100%;
     margin: auto;
 
-    margin-top: -8rem;
+    margin-top: -6rem;
     z-index: 0;
     border: .2rem solid rgb(250, 248, 247);  
 
-    background-size: 0% 250%;
 
 	animation: gradient 6s ease infinite;
 
@@ -372,8 +382,8 @@ h2{
 
 .element {
   align-items: center;
-
-    font :boldk;
+font-family: monospace;
+    font :bold;
     font-size: 1.2rem;
   display: flex;
   height: 4.5rem;
@@ -384,12 +394,12 @@ h2{
 
   color: rgb(255, 255, 255);
 
-border-radius: 10px;
+border-radius: 25px;
 
-box-shadow:  8px 8px 16px #bdbdbd,
+box-shadow:  8px 8px 16px #eaeaea,
              -5px -5px 16px #a7a6a6;
 
-background-image: linear-gradient(220deg, rgb(252, 137, 7),rgb(248, 78, 16));; 
+background-image: linear-gradient(120deg,#31ccc4,#1d3557);
 }
 
 
@@ -418,6 +428,7 @@ background-image: linear-gradient(220deg, rgb(252, 137, 7),rgb(248, 78, 16));;
 .experience{
     width: 100%;
     background-image: linear-gradient(30deg, red , yellow , green);
+   
 }
 
 
@@ -426,10 +437,11 @@ background-image: linear-gradient(220deg, rgb(252, 137, 7),rgb(248, 78, 16));;
 
 .exp-cards{
 display: flex;
+
 justify-content: space-around;
 width: 100%;
 
-background-image: linear-gradient(40deg,#fcf8f8 , rgb(152, 152, 152) , rgb(249, 248, 249));
+background-image: linear-gradient(40deg, 31ccc4, rgb(255, 255, 255) , rgb(249, 248, 249));
 }
 
 
@@ -438,18 +450,17 @@ background-image: linear-gradient(40deg,#fcf8f8 , rgb(152, 152, 152) , rgb(249, 
     padding: .8rem;
     width: 100%;
     background-image: linear-gradient( 280deg,rgba(251, 247, 247, 0.701) , rgba(255, 245, 245, 0.575));
-    font-size: 2rem;
+    font-size: 1rem;
     }
 
-    #exp{
-        font-size: 3rem;
-    }
 
+
+ 
 .ex-card{
     display: flex;
     width:35rem;
-    font-size: .21rem;
-    height: 19rem;
+  
+    height: 16rem;
     
     margin: 2.3rem;
     padding: 1.2rem;
@@ -464,14 +475,18 @@ background-image: linear-gradient(40deg,#fcf8f8 , rgb(152, 152, 152) , rgb(249, 
     -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.615);
-color: #f6f3f3;
+color: #646464;
+
+
+font-family: monospace;
+font-size: 1.1px;
 }
 
 
 
 
 .l-card{
-    width: 30%;
+    width: 35%;
     
 }
 .l-card2{
@@ -507,10 +522,6 @@ width: 50%;
 
 
 
-
-
-
-
 .l-card img {
     width:100%;
     margin-top: 20%;
@@ -526,7 +537,7 @@ width: 50%;
 }
 
 .ex-card h3, h4{
-font-size: 1rem;
+font-size: .81rem;
 text-align:left;
 }
 
@@ -540,20 +551,20 @@ text-align:left;
     align-items: center;
   
       font :bold;
-      font-size: .9rem;
+      font-size: .7rem;
     display: flex;
     height: 2.5rem;
   
     justify-content: center;
-    width: 15rem;
+    width: 14rem;
     
   
-    color: rgb(255, 255, 255);
+    color: rgb(68, 68, 68);
   
   border-radius: 10px;
  
   
-  background-image: linear-gradient(20deg, rgb(221, 176, 12),rgb(233, 64, 8));
+  background-image: linear-gradient(20deg,#31ccc4,#1d3557);
 
   margin: auto;
 
@@ -566,8 +577,6 @@ text-align:left;
       color: #2e2e2e;
       
                background-image: linear-gradient(20deg, rgb(0, 0, 0),rgb(28, 29, 31));
-
-
   }
 
   .element-down a {

@@ -10,34 +10,35 @@ ul {
 
 .ul1 {
 margin: auto;
-
-
 display: flex ;
+
 	
 }
 
 
 .ul1 li a {
-	 width:4rem;
-	 height: 4rem;
-     margin:auto;
+	 width:3.9rem;
+	 height: 3.9rem;
+
      margin-top: -0.7rem;
-	 background-color: #FFFFFF;
-	 text-align: center;
-	 margin: auto;
-	border-radius: 50%;
+	 
+	overflow: hidden;
+	
+	border-radius: 30%;
 	 display: block;
-     overflow: hidden;
+
 	 font-size: 2.8rem;
-	border: 1px solid rgb(135, 134, 134);
+	border: 1px solid #457b9d;
 	 position:relative;
+	 
 	 
 }
 
 .ul1 li a .fa {
 	position: relative;
-	margin: auto;
-	color: #000000;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
 	transition: .5s;
 	z-index: 3;
 }
@@ -54,8 +55,8 @@ display: flex ;
 	position: absolute;
 	top: 100% ;
 	left: 0% ;
-	width: 100%;
-	height: 100%;
+	width: 120%;
+	height: 120%;
 	background-color: #FF0000;
 	transition: .5s;
 	z-index:1 ;
@@ -67,7 +68,7 @@ display: flex ;
 
 .fa-instagram:before{content:"\f16d"}
 .ul1 li:nth-child(1) a:before {
-	background: #ca33f0; 
+background: #ca33f0; 
 background: -moz-linear-gradient(45deg, #ca33f0 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
 background: -webkit-linear-gradient(45deg, #ca33f0 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 background: linear-gradient(45deg, #ca33f0 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
