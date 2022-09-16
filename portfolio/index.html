@@ -15,7 +15,49 @@
     <title>Siddhesh Kamath </title> 
 </head>
 <body>
-    <nav>
+
+    <style>
+        #navbar {
+  overflow: hidden;
+  z-index: 100;
+
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+
+  text-decoration: none;
+
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+    </style>
+    <nav id="navbar">
         <div class="left">
             <h1 id="name">Siddhesh Kamath</h1> <br/>
            
@@ -31,7 +73,9 @@
             </ul>
         </div>
     </nav>
+    <br>
 <div class="line"> 
+
 <br> <br><br>
 </div>
 
@@ -58,7 +102,7 @@
 
     <div class="me">
         <div class="left_me">
-            <h1 class="me_txt"> 👋 Hi! I am Siddhesh <br/> Welcome To My Profile </h1>
+            <h1 class="me_txt">  Hi I am Siddhesh ! <br/> Welcome To My Profile </h1>
             <br/> 
             <div class="line"></div>
             <div class="holder">
@@ -187,5 +231,19 @@
     </div>
 
     
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 </body>
 </html>
